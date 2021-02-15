@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/foodie/static/css/main.1cc42b96.chunk.css",
-    "main.js": "/foodie/static/js/main.4e43e0ad.chunk.js",
-    "main.js.map": "/foodie/static/js/main.4e43e0ad.chunk.js.map",
+    "main.js": "/foodie/static/js/main.7623cce2.chunk.js",
+    "main.js.map": "/foodie/static/js/main.7623cce2.chunk.js.map",
     "runtime-main.js": "/foodie/static/js/runtime-main.e41127ec.js",
     "runtime-main.js.map": "/foodie/static/js/runtime-main.e41127ec.js.map",
     "static/js/2.03b315d8.chunk.js": "/foodie/static/js/2.03b315d8.chunk.js",
@@ -15,6 +15,6 @@
     "static/js/runtime-main.e41127ec.js",
     "static/js/2.03b315d8.chunk.js",
     "static/css/main.1cc42b96.chunk.css",
-    "static/js/main.4e43e0ad.chunk.js"
+    "static/js/main.7623cce2.chunk.js"
   ]
 }
