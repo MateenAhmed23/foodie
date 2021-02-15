@@ -6,6 +6,9 @@ import FoodType from '../data/foodtypes'
 import Areas from '../data/areas'
 
 
+import Swal from 'sweetalert2'
+
+
 
 
 function FormFoodSelect() {
@@ -18,7 +21,11 @@ function FormFoodSelect() {
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        console.log(city,food,area);
+        Swal.fire({
+            title:"Loading...",
+            showConfirmButton:false,
+            timer: 3000
+        });
     }
 
     return (

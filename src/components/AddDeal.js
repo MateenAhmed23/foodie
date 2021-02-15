@@ -4,6 +4,8 @@ import Cities from '../data/cities'
 import FoodType from '../data/foodtypes'
 import Areas from '../data/areas'
 
+import Swal from 'sweetalert2'
+
 function AddDeal() {
 
     const [city,setCity] = useState(Cities[0].tag);
@@ -16,8 +18,27 @@ function AddDeal() {
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        console.log(city,food,area,restaurant,des,price,name);
-        console.log('Area: ', area);
+        Swal.fire({
+            title: 'Are you sure?',
+            // text: 'You will not be able to recover this imaginary file!',
+            icon: 'warning',
+            showCancelButton: true,
+            confirmButtonText: 'Yes!',
+            cancelButtonText: 'No, I want to edit'
+          }).then((result) => {
+            if (result.value) {
+              Swal.fire({
+                  title: "Success",
+                  text: "We will review and add the deal shortly",
+                  icon: "success",
+                  timer: 3000,
+                  timerProgressBar: true
+              }
+              )
+            // For more information about handling dismissals please visit
+            // https://sweetalert2.github.io/#handling-dismissals
+            }
+          })
     }
 
     return (
@@ -62,7 +83,7 @@ function AddDeal() {
                 <input className="form-item" type="number" id="price" value={price} onChange={(e)=>setPrice(e.target.value)}/>
                 <label className="form-item" htmlFor="description">Please enter any more details</label>
                 <textarea className="form-item" id="description" name="description" rows="4" cols="40" value={des} onChange={(e)=>setDes(e.target.value)}>It was a dark and stormy night... </textarea>
-                <button className="form-item form-button">Search</button>
+                <button className="form-item form-button">Add</button>
             </form>
         </div>
     )
