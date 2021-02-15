@@ -22,7 +22,6 @@ body{
 .form-container{
     background-color: white;
     padding: 30px;
-    z-index:1;
 }
 
 .welcome-heading{
