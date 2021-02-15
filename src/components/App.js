@@ -48,10 +48,10 @@ function App(){
         <>
             <NavBar />
             <div className="container">
-                <Route path="/">
+                <Route path="/foodie/">
                     <Form />
                 </Route>
-                <Route path="/AddNew">
+                <Route path="/foodie/AddNew">
                     <AddDeal />
                 </Route>
             </div>

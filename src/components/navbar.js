@@ -7,12 +7,12 @@ import Link from './Link'
 const MenuItems = [
     {
         title: "Search",
-        url: "/",
+        url: "/foodie/",
         cName: "nav-links"
     },
     {
         title: "Add New",
-        url: "/AddNew",
+        url: "/foodie/AddNew",
         cName: "nav-links"
     },
     // {
@@ -22,7 +22,7 @@ const MenuItems = [
     // },
     {
         title: "Contact",
-        url: "/",
+        url: "/foodie/",
         cName: "nav-links"
     }
     // },
