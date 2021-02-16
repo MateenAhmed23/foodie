@@ -32,7 +32,6 @@ body{
 
 .form-item{
     margin: 10px;
-    width:30rem;
 }
 
 .form-button{
@@ -63,4 +62,10 @@ select:focus{
 
 .text-area{
     padding: 5px;
+}
+
+@media(min-width: 767px){
+    .form-item{
+        width: 30rem;
+    }
 }
