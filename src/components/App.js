@@ -3,6 +3,7 @@ import React from 'react'
 
 import Form from './formFoodSelect'
 import AddDeal from './AddDeal'
+import ContactForm from './ContactForm'
 
 
 import menuData from '../data/menuData'
@@ -53,6 +54,9 @@ function App(){
                 </Route>
                 <Route path="/foodie/AddNew">
                     <AddDeal />
+                </Route>
+                <Route path="/foodie/contact">
+                    <ContactForm />
                 </Route>
             </div>
         </>

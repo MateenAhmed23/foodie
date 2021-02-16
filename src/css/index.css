@@ -32,6 +32,7 @@ body{
 
 .form-item{
     margin: 10px;
+    width:30rem;
 }
 
 .form-button{
@@ -58,4 +59,8 @@ select:hover{
 
 select:focus{
     border-color: #5F5FD8;
+}
+
+.text-area{
+    padding: 5px;
 }

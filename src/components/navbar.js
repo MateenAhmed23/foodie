@@ -22,7 +22,7 @@ const MenuItems = [
     // },
     {
         title: "Contact",
-        url: "/foodie/",
+        url: "/foodie/contact",
         cName: "nav-links"
     }
     // },
